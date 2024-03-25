@@ -1,0 +1,9 @@
+To use QuestUtils:
+
+1. import QuestUtils
+2. Call QuestUtils.Generic.DecomposeDialogueLine on a string returned by a quest or QuestUtils.Generic.DecomposeDialogue on a list of dialogue to decompose it into a DialogueObject.
+3: 
+If dialogueObject.type == "Speech", then treat the dialogue as speech by putting the dialogueObject.text in the textbox, the dialogueObject.speaker (name) in the namebox and the dialogueObject.speakerImage (character image) in the character image box.
+If dialogueObject.type == "Narration", then hide the namebox and character image box and put the dialogueObject.text in the textbox.
+If dialogueObject.type == "Decision", then put each of the options in dialogueObject.options in the dialogue boxes, allowing the user to select the first obejct by passing 1 as the decision to accept, the second by passing 2 as the decision to accept and the third by calling reject().
+4. Continue to the next portion of the quest.

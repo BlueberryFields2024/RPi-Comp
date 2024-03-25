@@ -1,0 +1,8 @@
+#0000 Rare Candy
+#0022 Golden Groat
+#AAAA A Pain au Chocolat
+#CF00 The Emblem of House François
+#EEEE Piano
+#F123 Jim The Accountant's Business Card
+#FFFE Honour and Pride
+#FFFF Some Rubbish Item
